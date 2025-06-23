@@ -189,7 +189,7 @@ Paying off debt over time in regular installments of principal and interest. In 
 
 ### EBITDA Margin
 <p align="center">
-  <img src="https://latex.codecogs.com/svg.image?\color{White}\begin{align*}EBITDA\ Margin%20%3D%20%5Cfrac%7BEBITDA%7D%7BRevenue%7D\end{align*}"/>
+  <img src="https://latex.codecogs.com/svg.image?\color{White}\begin{align*}\text{EBITDA\ Margin}%20%3D%20%5Cfrac%7BEBITDA%7D%7BRevenue%7D\end{align*}"/>
 </p>
 A measure of operating profitability.
 
