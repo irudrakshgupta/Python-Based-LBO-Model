@@ -1,0 +1,21 @@
+/* Neon accent for charts and cards */
+.neon {
+  color: #00ffe7 !important;
+  text-shadow: 0 0 5px #00ffe7, 0 0 10px #00ffe7;
+}
+
+/* Minimalist card and grid styling */
+.stApp {
+  background: #18181b !important;
+}
+
+.stButton>button, .stSlider, .stNumberInput, .stTextInput, .stSelectbox, .stExpander {
+  border-radius: 8px !important;
+  border: 1px solid #00ffe7 !important;
+  background: #23272f !important;
+  color: #f8fafc !important;
+}
+
+.stTabs [data-baseweb="tab"] {
+  color: #00ffe7 !important;
+} 

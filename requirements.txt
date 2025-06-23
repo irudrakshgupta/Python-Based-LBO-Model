@@ -1,0 +1,10 @@
+streamlit>=1.30.0
+pandas
+numpy
+requests
+plotly
+openpyxl
+fpdf
+scipy
+altair
+seaborn 
