@@ -69,9 +69,7 @@ Suppose:
 - Discount rate: 10%
 - Terminal value: 8x Year 5 FCF
 
-\[
-NPV = \sum_{t=1}^{5} \frac{FCF_t}{(1 + r)^t} + \frac{TV}{(1 + r)^5}
-\]
+**NPV = ∑<sub>t=1</sub><sup>5</sup> [FCF<sub>t</sub> / (1 + r)<sup>t</sup>] + [TV / (1 + r)<sup>5</sup>]**
 
 ---
 
@@ -134,79 +132,57 @@ Suppose:
 ### Present Value (PV)
 The value today of a future sum of money, discounted at a specific rate.
 
-\[
-PV = \frac{FV}{(1 + r)^n}
-\]
-Where:
-- \(FV\) = Future Value
-- \(r\) = Discount rate per period
-- \(n\) = Number of periods
+**PV = FV / (1 + r)<sup>n</sup>**
+- FV = Future Value
+- r = Discount rate per period
+- n = Number of periods
 
 ### Net Present Value (NPV)
 The sum of all future cash flows (inflows and outflows) discounted to today.
 
-\[
-NPV = \sum_{t=0}^{N} \frac{CF_t}{(1 + r)^t}
-\]
-Where:
-- \(CF_t\) = Cash flow at time t
-- \(N\) = Number of periods
+**NPV = ∑<sub>t=0</sub><sup>N</sup> [CF<sub>t</sub> / (1 + r)<sup>t</sup>]**
+- CF<sub>t</sub> = Cash flow at time t
+- N = Number of periods
 
 ### Internal Rate of Return (IRR)
 The discount rate that makes the NPV of all cash flows from a project zero. Used to measure investment performance.
 
-\[
-0 = \sum_{t=0}^{N} \frac{CF_t}{(1 + IRR)^t}
-\]
+**0 = ∑<sub>t=0</sub><sup>N</sup> [CF<sub>t</sub> / (1 + IRR)<sup>t</sup>]**
 
 ### Weighted Average Cost of Capital (WACC)
 The average rate that a company is expected to pay to finance its assets, weighted by the proportion of debt and equity.
 
-\[
-WACC = \frac{E}{V} r_e + \frac{D}{V} r_d (1 - T)
-\]
-Where:
-- \(E\) = Market value of equity
-- \(D\) = Market value of debt
-- \(V\) = Total value (E + D)
-- \(r_e\) = Cost of equity
-- \(r_d\) = Cost of debt
-- \(T\) = Tax rate
+**WACC = (E/V) × r<sub>e</sub> + (D/V) × r<sub>d</sub> × (1 - T)**
+- E = Market value of equity
+- D = Market value of debt
+- V = Total value (E + D)
+- r<sub>e</sub> = Cost of equity
+- r<sub>d</sub> = Cost of debt
+- T = Tax rate
 
 ### Terminal Value (TV)
 Represents the value of a business beyond the forecast period.
 
 - **Exit Multiple Method:**
-  \[
-  TV = EBITDA_{final} \times Exit\ Multiple
-  \]
+  - TV = EBITDA<sub>final</sub> × Exit Multiple
 - **Gordon Growth Method:**
-  \[
-  TV = \frac{FCF_{final} \times (1 + g)}{r - g}
-  \]
-Where:
-- \(g\) = Perpetual growth rate
-- \(r\) = Discount rate
+  - TV = FCF<sub>final</sub> × (1 + g) / (r - g)
+    - g = Perpetual growth rate
+    - r = Discount rate
 
 ### Debt Amortization
 Paying off debt over time in regular installments of principal and interest. In LBOs, this reduces risk and increases equity value over time.
 
 ### EBITDA Margin
-\[
-EBITDA\ Margin = \frac{EBITDA}{Revenue}
-\]
+**EBITDA Margin = EBITDA / Revenue**
 A measure of operating profitability.
 
 ### Free Cash Flow (FCF)
-\[
-FCF = EBITDA - CapEx - \Delta Working\ Capital - Taxes
-\]
+**FCF = EBITDA - CapEx - ΔWorking Capital - Taxes**
 Represents cash available to all capital providers.
 
 ### Multiple on Invested Capital (MOIC)
-\[
-MOIC = \frac{Total\ Cash\ Returned}{Equity\ Invested}
-\]
+**MOIC = Total Cash Returned / Equity Invested**
 A simple measure of investment return.
 
 ---
