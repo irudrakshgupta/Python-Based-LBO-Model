@@ -69,7 +69,7 @@ Suppose:
 - Discount rate: 10%
 - Terminal value: 8x Year 5 FCF
 
-![NPV Formula](https://latex.codecogs.com/svg.image?NPV%20%3D%20%5Csum_%7Bt%3D1%7D%5E5%20%5Cfrac%7BFCF_t%7D%7B%281%20%2B%20r%29%5Et%7D%20%2B%20%5Cfrac%7BTV%7D%7B%281%20%2B%20r%29%5E5%7D)
+![NPV Formula](https://latex.codecogs.com/svg.image?\color{White} NPV%20%3D%20%5Csum_%7Bt%3D1%7D%5E5%20%5Cfrac%7BFCF_t%7D%7B%281%20%2B%20r%29%5Et%7D%20%2B%20%5Cfrac%7BTV%7D%7B%281%20%2B%20r%29%5E5%7D)
 
 ---
 
@@ -132,7 +132,7 @@ Suppose:
 ### Present Value (PV)
 The value today of a future sum of money, discounted at a specific rate.
 
-![PV Formula](https://latex.codecogs.com/svg.image?PV%20%3D%20%5Cfrac%7BFV%7D%7B%281%20%2B%20r%29%5En%7D)
+![PV Formula](https://latex.codecogs.com/svg.image?\color{White} PV%20%3D%20%5Cfrac%7BFV%7D%7B%281%20%2B%20r%29%5En%7D)
 - FV = Future Value
 - r = Discount rate per period
 - n = Number of periods
@@ -140,19 +140,19 @@ The value today of a future sum of money, discounted at a specific rate.
 ### Net Present Value (NPV)
 The sum of all future cash flows (inflows and outflows) discounted to today.
 
-![NPV Formula](https://latex.codecogs.com/svg.image?NPV%20%3D%20%5Csum_%7Bt%3D0%7D%5EN%20%5Cfrac%7BCF_t%7D%7B%281%20%2B%20r%29%5Et%7D)
+![NPV Formula](https://latex.codecogs.com/svg.image?\color{White} NPV%20%3D%20%5Csum_%7Bt%3D0%7D%5EN%20%5Cfrac%7BCF_t%7D%7B%281%20%2B%20r%29%5Et%7D)
 - CF<sub>t</sub> = Cash flow at time t
 - N = Number of periods
 
 ### Internal Rate of Return (IRR)
 The discount rate that makes the NPV of all cash flows from a project zero. Used to measure investment performance.
 
-![IRR Formula](https://latex.codecogs.com/svg.image?0%20%3D%20%5Csum_%7Bt%3D0%7D%5EN%20%5Cfrac%7BCF_t%7D%7B%281%20%2B%20IRR%29%5Et%7D)
+![IRR Formula](https://latex.codecogs.com/svg.image?\color{White} 0%20%3D%20%5Csum_%7Bt%3D0%7D%5EN%20%5Cfrac%7BCF_t%7D%7B%281%20%2B%20IRR%29%5Et%7D)
 
 ### Weighted Average Cost of Capital (WACC)
 The average rate that a company is expected to pay to finance its assets, weighted by the proportion of debt and equity.
 
-![WACC Formula](https://latex.codecogs.com/svg.image?WACC%20%3D%20%5Cfrac%7BE%7D%7BV%7D%20r_e%20%2B%20%5Cfrac%7BD%7D%7BV%7D%20r_d%20%281%20-%20T%29)
+![WACC Formula](https://latex.codecogs.com/svg.image?\color{White} WACC%20%3D%20%5Cfrac%7BE%7D%7BV%7D%20r_e%20%2B%20%5Cfrac%7BD%7D%7BV%7D%20r_d%20%281%20-%20T%29)
 - E = Market value of equity
 - D = Market value of debt
 - V = Total value (E + D)
@@ -165,11 +165,11 @@ Represents the value of a business beyond the forecast period.
 
 - **Exit Multiple Method:**
   
-  ![TV Exit Multiple](https://latex.codecogs.com/svg.image?TV%20%3D%20EBITDA_%7Bfinal%7D%20%5Ctimes%20Exit%20Multiple)
+  ![TV Exit Multiple](https://latex.codecogs.com/svg.image?\color{White} TV%20%3D%20EBITDA_%7Bfinal%7D%20%5Ctimes%20Exit%20Multiple)
 
 - **Gordon Growth Method:**
   
-  ![TV Gordon Growth](https://latex.codecogs.com/svg.image?TV%20%3D%20%5Cfrac%7BFCF_%7Bfinal%7D%20%5Ctimes%20%281%20%2B%20g%29%7D%7Br%20-%20g%7D)
+  ![TV Gordon Growth](https://latex.codecogs.com/svg.image?\color{White} TV%20%3D%20%5Cfrac%7BFCF_%7Bfinal%7D%20%5Ctimes%20%281%20%2B%20g%29%7D%7Br%20-%20g%7D)
   - g = Perpetual growth rate
   - r = Discount rate
 
@@ -177,15 +177,15 @@ Represents the value of a business beyond the forecast period.
 Paying off debt over time in regular installments of principal and interest. In LBOs, this reduces risk and increases equity value over time.
 
 ### EBITDA Margin
-![EBITDA Margin](https://latex.codecogs.com/svg.image?EBITDA%20Margin%20%3D%20%5Cfrac%7BEBITDA%7D%7BRevenue%7D)
+![EBITDA Margin](https://latex.codecogs.com/svg.image?\color{White} EBITDA%20Margin%20%3D%20%5Cfrac%7BEBITDA%7D%7BRevenue%7D)
 A measure of operating profitability.
 
 ### Free Cash Flow (FCF)
-![FCF Formula](https://latex.codecogs.com/svg.image?FCF%20%3D%20EBITDA%20-%20CapEx%20-%20%5CDelta%20Working%20Capital%20-%20Taxes)
+![FCF Formula](https://latex.codecogs.com/svg.image?\color{White} FCF%20%3D%20EBITDA%20-%20CapEx%20-%20%5CDelta%20Working%20Capital%20-%20Taxes)
 Represents cash available to all capital providers.
 
 ### Multiple on Invested Capital (MOIC)
-![MOIC Formula](https://latex.codecogs.com/svg.image?MOIC%20%3D%20%5Cfrac%7BTotal%20Cash%20Returned%7D%7BEquity%20Invested%7D)
+![MOIC Formula](https://latex.codecogs.com/svg.image?\color{White} MOIC%20%3D%20%5Cfrac%7BTotal%20Cash%20Returned%7D%7BEquity%20Invested%7D)
 A simple measure of investment return.
 
 ---
